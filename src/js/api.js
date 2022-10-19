@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const BASE_URL = 'https://pixabay.com/api/';
-const ACCOUNT_KEY = '30575262-802bd827513eacead1493e6f3';
+const ACCOUNT_KEY = '30695076-dbc9559cfefa4e78326764980';
 export const ITEMS_PER_PAGE = 40;
 
 export async function getSearchImage({ value, page = 1 }) {
