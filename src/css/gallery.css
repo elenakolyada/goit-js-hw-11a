@@ -3,7 +3,7 @@
   --animation-duration: 250ms;
   --transition: var(--timing-function) var(--animation-duration);
   --main-txt-cl: #212121;
-  --main-cl: #5a7cff;
+  --main-cl: #ff5ac5;
   --main-bg-cl: #e3e9ff;
 }
 .container {
@@ -62,7 +62,7 @@
   display: flex;
   justify-content: space-between;
   padding: 20px;
-  background-color: #da1bb4;
+  background-color: #f1b4e5;
   column-gap: 10px;
 }
 
