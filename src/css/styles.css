@@ -7,8 +7,8 @@ body {
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #1d1b26;
-  color: #212121;
+  background-color: #9c89f1;
+  color: #ddcfdc;
   line-height: 1.5;
 }
 
@@ -27,21 +27,21 @@ body {
   display: block;
   width: 300px;
   padding: 0 20px;
-  background: #e9eff6;
+  background: #2472cc;
   line-height: 40px;
   border-width: 0;
-  border-radius: 20px;
+  border-radius: 0px;
   font-family: 'Roboto', sans-serif;
 }
 .search-btn {
   text-decoration: none;
-  color: white;
+  color: rgb(249, 90, 90);
   display: inline-block;
   position: relative;
   padding: 15px 30px;
   border: 1px solid;
-  border-image: linear-gradient(180deg, #ff3000, #ed0200, #ff096c, #d50082);
-  border-image-slice: 1;
+  /* border-image: linear-gradient(180deg, #ff3000, #ed0200, #ff096c, #d50082); */
+  border-image-slice: 0.5;
   margin: 10px 20px;
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
