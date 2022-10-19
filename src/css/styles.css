@@ -33,15 +33,15 @@ body {
   border-radius: 0px;
   font-family: 'Roboto', sans-serif;
 }
-/* .search-btn {
+.search-btn {
   text-decoration: none;
   color: rgb(249, 90, 193);
   display: inline-block;
   position: relative;
   padding: 15px 30px;
   border: 1px solid;
-  /* border-image: linear-gradient(180deg, #ff3000, #ed0200, #ff096c, #d50082); */
-/* border-image-slice: 0.5;
+  border-image: linear-gradient(180deg, #ff3000, #ed0200, #ff096c, #d50082);
+  border-image-slice: 0.5;
   margin: 10px 20px;
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
@@ -50,8 +50,8 @@ body {
   transition: 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
   cursor: pointer;
   background-color: inherit;
-} */
-*/ .search-btn:before {
+}
+.search-btn:before {
   content: '';
   position: absolute;
   left: 0;
@@ -120,7 +120,7 @@ body {
   align-items: center;
   justify-content: center;
 }
-.option-input:checked::after {
+/* .option-input:checked::after {
   -webkit-animation: click-wave 0.65s;
   -moz-animation: click-wave 0.65s;
   animation: click-wave 0.65s;
@@ -132,7 +132,7 @@ body {
 }
 .option-input::after {
   border-radius: 50%;
-}
+} */
 
 .option-input__text {
   color: white;
@@ -163,13 +163,13 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 200px;
-  border-radius: 30px;
-  background-image: linear-gradient(
+  border-radius: 20px;
+  /* background-image: linear-gradient(
     45deg,
     #f0a1e0 0%,
-    #5a0844 50%,
+    #af3d91 50%,
     #2b1d27 100%
-  );
+  ); */
   background-position: 99% 0;
   background-size: 200% 200%;
   font-family: 'Montserrat', sans-serif;
