@@ -79,7 +79,7 @@ body {
 .option-container:not(:last-child) {
   margin-right: 30px;
 }
-.option-input {
+/* .option-input {
   -webkit-appearance: none;
   -moz-appearance: none;
   -ms-appearance: none;
@@ -119,7 +119,7 @@ body {
   position: absolute;
   align-items: center;
   justify-content: center;
-}
+} */
 /* .option-input:checked::after {
   -webkit-animation: click-wave 0.65s;
   -moz-animation: click-wave 0.65s;
