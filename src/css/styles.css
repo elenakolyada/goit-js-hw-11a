@@ -35,7 +35,6 @@ body {
   font-size: 24px;
   font-weight: 300;
   border-radius: 20px;
-  /* font-family: 'Roboto', sans-serif; */
 }
 .search-btn {
   text-decoration: none;
@@ -45,7 +44,6 @@ body {
   padding: 15px 30px;
   border: 1px solid;
   border-radius: 20px;
-  /* border-image: linear-gradient(180deg, #ff3000, #ed0200, #ff096c, #d50082); */
   border-image-slice: 0.5;
   margin: 10px 20px;
   font-family: 'Montserrat', sans-serif;
@@ -84,7 +82,7 @@ body {
   margin-right: 30px;
 }
 
-.option-input {
+/* .option-input {
   -webkit-appearance: none;
   -moz-appearance: none;
   -ms-appearance: none;
@@ -144,7 +142,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
   overflow: hidden;
-}
+} */
 
 @keyframes click-wave {
   0% {
